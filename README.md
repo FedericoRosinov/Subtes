@@ -9,7 +9,7 @@
 
 3. Visualización: URL local que indique la terminal (por defecto)
 
---
+
 
 # Teconologias utilizadas 
 
