@@ -1,3 +1,5 @@
+import maplibregl from 'maplibre-gl';
+import 'maplibre-gl/dist/maplibre-gl.css';
 
 const map = new maplibregl.Map({
     container: 'map',
@@ -21,7 +23,7 @@ map.on('load', () => {
     // --- Capa de Líneas de Subte ---
     map.addSource('subte-lineas', {
         type: 'geojson',
-        data: './data/lineas.geojson'
+        data: '/data/lineas.geojson'
     });
 
     map.addLayer({
@@ -47,7 +49,7 @@ map.on('load', () => {
     // --- Capa de Estaciones de Subte ---
     map.addSource('subte-estaciones', {
         type: 'geojson',
-        data: './data/estaciones.geojson'
+        data: '/data/estaciones.geojson'
     });
 
     map.addLayer({

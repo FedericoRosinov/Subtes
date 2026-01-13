@@ -1,20 +1,26 @@
-# Subtes
+##  Instalación y Ejecución
 
-1. Abrir la carpeta raíz del proyecto (`subtes-project`) en **VS Code**.
-2. Asegurarse de tener instalada la extensión **Live Server**.
-3. Hacer clic derecho sobre el archivo **`index.html`** en el explorador de archivos.
-4. Seleccionar la opción **"Open with Live Server"**.
-5. Se abrirá automáticamente una pestaña en el navegador
+1. Instalar las dependencias:
+   Abrí la terminal en la carpeta raíz del proyecto y ejecutá:
+   npm install
 
---
+2. Iniciar el servidor de desarrollo:
+   npm run dev
+
+3. Visualización: URL local que indique la terminal (por defecto)
+
+
+
 # Teconologias utilizadas 
 
-1. JavaScript (Vanilla): Lógica de integración y manipulación de datos.
+- Vite: Entorno de desarrollo.
 
-2. MapLibre GL JS: Motor de renderizado de mapas vectoriales.
+- JavaScript (Vanilla): Lógica de integración y manipulación de datos.
 
-3. OpenStreetMap: Proveedor de la capa base de mapas (Tiles raster).
+- MapLibre GL JS: Motor de renderizado de mapas vectoriales.
 
-4. CSS3: Diseño para visualización de pantalla completa sin scroll
+- OpenStreetMap: Proveedor de la capa base de mapas.
 
-5. geojson.io: Herramienta de edición y normalización de datos geoespaciales.
+- CSS3: Diseño para visualización de pantalla completa sin scroll.
+
+- geojson.io: Herramienta utilizada para la edición y normalización de datos geoespaciales.
