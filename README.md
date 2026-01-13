@@ -13,13 +13,13 @@
 
 # Teconologias utilizadas 
 
-- Vite: Entorno de desarrollo rápido y empaquetador moderno.
+- Vite: Entorno de desarrollo.
 
 - JavaScript (Vanilla): Lógica de integración y manipulación de datos.
 
 - MapLibre GL JS: Motor de renderizado de mapas vectoriales.
 
-- OpenStreetMap (OSM): Proveedor de la capa base de mapas mediante tiles raster.
+- OpenStreetMap: Proveedor de la capa base de mapas.
 
 - CSS3: Diseño para visualización de pantalla completa sin scroll.
 
